@@ -70,8 +70,8 @@ module tb_mult;
                 // Wait for 2-cycle latency
                 @(posedge clk);
                 @(posedge clk);
+                @(negedge clk);   // Sample after the registered output has updated
 
-                // Check output
                 if (p !== expected) begin
                     $display(
                         "MISMATCH: a=%0d b=%0d expected=%0d got=%0d",

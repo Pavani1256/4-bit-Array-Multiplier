@@ -12,4 +12,4 @@ docker start -ai iic-osic-tools
 | Flip-flop area | 400.3840 µm² |
 | Flip-flop area (% of total) | 53.60% |
 | 3 most-used cell types | `dfrtp_1`: 16, `nand2_1`: 12, `xnor2_1`: 7 |
-| Netlist simulation | Not yet run |
+| Netlist simulation | PASS: 256 vectors checked, 0 errors |
