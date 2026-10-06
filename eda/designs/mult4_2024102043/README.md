@@ -1,6 +1,15 @@
 To Run the container in wsl use (in assignmrnt directory) :
-docker run -it --name iic-osic-tools \
-  -p 80:80 \
-  -p 5901:5901 \
-  -v "$HOME/DVD_Assignment_1/eda/designs:/foss/designs" \
-  hpretl/iic-osic-tools:latest --wait --vnc
+docker start -ai iic-osic-tools
+
+
+### Part B — Logic Synthesis with Yosys
+
+| Metric | Result |
+|:---|:---|
+| Total number of cells | 67 |
+| Number of flip-flops | 16 |
+| Total cell area | 746.9664 µm² |
+| Flip-flop area | 400.3840 µm² |
+| Flip-flop area (% of total) | 53.60% |
+| 3 most-used cell types | `dfrtp_1`: 16, `nand2_1`: 12, `xnor2_1`: 7 |
+| Netlist simulation | Not yet run |
