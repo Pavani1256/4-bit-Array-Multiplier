@@ -1,7 +1,7 @@
-To Run the container in wsl use (in assignmrnt directory) :
+To start the container in wsl use (in assignmrnt directory) :
 docker start -ai iic-osic-tools
 
-
+To go inside cntainer : docker exec -it iic-osic-tools bash
 ### Part B — Logic Synthesis with Yosys
 
 | Metric | Result |
