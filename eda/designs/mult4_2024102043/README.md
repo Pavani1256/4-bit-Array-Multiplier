@@ -28,3 +28,22 @@ To go inside cntainer : docker exec -it iic-osic-tools bash
 | Number of cells on the critical path | 8|
 | Latency (ns) = $2 \times T_{\text{min}}$ |2 x 2.6 = 5.2ns |
 | Throughput (million results per second) |384.62 |
+
+
+### Part D - Physical Design 
+| Metric | Value |
+|---|---|
+| CLOCK_PERIOD used (ns) |  1.2x2.6 ~ 3ns + 0.5 + 0.5|
+| Number of runs needed | 3 |
+| Core area (µm²) | 16199 |
+| Cells after synthesis (from Part B) |8 [CHECK]|
+| Cells after place and route | 1318|
+| Kinds of cells added | |
+| Wirelength (µm) | 191.4|
+| Setup slack (ns) | 0.1035|
+| Post-route Fmax (MHz) | 256.64|
+| Fmax from Part C (MHz) | 384.62|
+| DRC errors |0 |
+| LVS errors |0 |
+
+Note open the gds file on webpage and take required screenshots.
