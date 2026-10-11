@@ -36,9 +36,9 @@ To go inside cntainer : docker exec -it iic-osic-tools bash
 | CLOCK_PERIOD used (ns) |  1.2x2.6 ~ 3ns + 0.5 + 0.5|
 | Number of runs needed | 3 |
 | Core area (µm²) | 16199 |
-| Cells after synthesis (from Part B) |8 [CHECK]|
+| Cells after synthesis (from Part B) | 67|
 | Cells after place and route | 1318|
-| Kinds of cells added | |
+| Kinds of cells added | filler cells, timing-repair buffers, clock buffers, and hold buffers|
 | Wirelength (µm) | 191.4|
 | Setup slack (ns) | 0.1035|
 | Post-route Fmax (MHz) | 256.64|
